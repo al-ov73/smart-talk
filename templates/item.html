@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Умный помощник</title>
+</head>
+<body>
+    <form action="/question" method="post">
+        <div>
+            <label for="question">Введите запрос: </label>
+            <input type="text" name="question" id="question" required />
+        </div>
+        <div>
+            <input type="submit" value="Отправить" />
+        </div>
+    </form>
+    {{ reply }}
+</body>
+</html>
